@@ -1,20 +1,20 @@
 # FenixKit — .NET Minimal API  MongoDB + Keycloak Auth
 
+<p align="center">
+  <a href="https://fenixkit.dev">
+    <img src="images/logo-mongo-keycloak.png" alt="FenixKit" width="300" />
+  </a>
+</p>
+<h3 align="center">
+  Get it here: <a href="https://fenixkit.dev">fenixkit.dev</a>
+</h3>
+
 > **Ship faster. Build smarter.**  
 > A production-ready .NET Minimal API starter with Keycloak JWT authentication, MongoDB, and zero manual setup.
 
 Keycloak JWT auth is the hardest part to get right in a new .NET API. Wrong token validation, missing role checks, broken Swagger login flows, no health check on the auth server — all fixable, all time-consuming. FenixKit Auth ships with all of it wired up from day one.
 
 > **Keycloak runs out of the box.** A pre-built realm with two test users, a registered client, and role mappings is imported automatically when the Docker stack starts. No Keycloak console setup required.
-
-<p align="center">
-  <a href="https://fenixkit.dev">
-    <img src="images/logo-0.png" alt="FenixKit" width="300" />
-  </a>
-</p>
-<h3 align="center">
-  Get it here: <a href="https://fenixkit.dev">fenixkit.dev</a>
-</h3>
 
 ---
 
