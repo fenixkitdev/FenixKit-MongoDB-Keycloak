@@ -1,7 +1,7 @@
-# FenixKit — .NET 8 Minimal API  MongoDB + Keycloak Auth
+# FenixKit — .NET Minimal API  MongoDB + Keycloak Auth
 
 > **Ship faster. Build smarter.**  
-> A production-ready .NET 8 Minimal API starter with Keycloak JWT authentication, MongoDB, and zero manual setup.
+> A production-ready .NET Minimal API starter with Keycloak JWT authentication, MongoDB, and zero manual setup.
 
 Keycloak JWT auth is the hardest part to get right in a new .NET API. Wrong token validation, missing role checks, broken Swagger login flows, no health check on the auth server — all fixable, all time-consuming. FenixKit Auth ships with all of it wired up from day one.
 
@@ -28,7 +28,7 @@ Keycloak JWT auth is the hardest part to get right in a new .NET API. Wrong toke
 | **Pre-built realm** | `realm-export.json` imported at startup — two test users, one client, two roles |
 | **Keycloak health check** | `/health/ready` includes Keycloak reachability via OIDC discovery |
 | **Auth example endpoints** | `/api/auth-examples/me` and `/api/auth-examples/admin` — working patterns to copy |
-| **Minimal API** | Route grouping, no controllers, fast startup |
+| **Minimal API** | .NET 8 / .NET 10 — route grouping, no controllers, fast startup |
 | **MongoDB** | `MongoRepository` via `IDBRepository`, singleton, health-checked |
 | **ErrorOr** | Result pattern throughout — no exceptions for control flow |
 | **Offset + Cursor pagination** | Both strategies included, pick the right one per endpoint |
@@ -183,7 +183,7 @@ All errors — including auth errors — follow [RFC 7807](https://www.rfc-edito
 
 | Package | Role |
 |---|---|
-| .NET 8 LTS + C# 12 | Runtime and language |
+| .NET 8 LTS (C# 12) · .NET 10 (C# 14) | Runtime and language |
 | Keycloak 24 | OIDC / OAuth2 identity provider |
 | Microsoft.AspNetCore.Authentication.JwtBearer | JWT Bearer validation |
 | MongoDB.Driver | Official MongoDB .NET driver |
