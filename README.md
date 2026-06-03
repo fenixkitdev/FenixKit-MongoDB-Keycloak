@@ -2,11 +2,11 @@
 
 <p align="center">
   <a href="https://fenixkit.dev/kits/guard/">
-    <img src="https://fenixkit.dev/assets/kits/banners/guard.png" alt="GUARD by FenixKit" width="100%" />
+    <img src="images/banner.png" alt="GUARD by FenixKit" width="100%" />
   </a>
 </p>
 <p align="center">
-  <img src="https://fenixkit.dev/assets/kits/logos/guard.png" alt="GUARD" width="200" />
+  <img src="images/logo.png" alt="GUARD" width="200" />
 </p>
 <h3 align="center">
   <a href="https://fenixkit.dev/kits/guard/">fenixkit.dev/kits/guard/</a>
