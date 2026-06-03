@@ -1,22 +1,19 @@
-# FenixKit — .NET Minimal API  MongoDB + Keycloak Auth
+﻿# GUARD by FenixKit — Guard · User · Auth · Roles · .NET
 
 <p align="center">
-  <a href="https://fenixkit.dev">
-    <img src="images/logo-mongo-keycloak.png" alt="FenixKit" width="300" />
+  <a href="https://fenixkit.dev/kits/guard/">
+    <img src="https://fenixkit.dev/assets/kits/banners/guard.png" alt="GUARD by FenixKit" width="100%" />
   </a>
 </p>
+<p align="center">
+  <img src="https://fenixkit.dev/assets/kits/logos/guard.png" alt="GUARD" width="200" />
+</p>
 <h3 align="center">
-  Get it here: <a href="https://fenixkit.dev">fenixkit.dev</a>
+  <a href="https://fenixkit.dev/kits/guard/">fenixkit.dev/kits/guard/</a>
 </h3>
 
-> **Ship faster. Build smarter.**  
-> A production-ready .NET Minimal API starter with Keycloak JWT authentication, MongoDB, and zero manual setup.
-
-Keycloak JWT auth is the hardest part to get right in a new .NET API. Wrong token validation, missing role checks, broken Swagger login flows, no health check on the auth server — all fixable, all time-consuming. FenixKit Auth ships with all of it wired up from day one.
-
-> **Keycloak runs out of the box.** A pre-built realm with two test users, a registered client, and role mappings is imported automatically when the Docker stack starts. No Keycloak console setup required.
-
----
+> **GUARD — Guard · User · Auth · Roles · .NET**
+> A MongoDB + Keycloak JWT .NET Minimal API template — OIDC, role-based policies, OAuth2 PKCE in Swagger, pre-built realm — secure from the first run.
 
 ## What's Inside
 
@@ -205,3 +202,5 @@ Already own the base kit? See `MIGRATION.md` — step-by-step instructions for a
 FenixKit Auth is a commercial product. Each purchase grants a lifetime licence for unlimited personal and commercial projects.
 
 👉 **[fenixkit.dev](https://fenixkit.dev)**
+
+
